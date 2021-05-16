@@ -19,6 +19,13 @@ export default class MyDocument extends Document {
             href="https://fonts.googleapis.com/icon?family=Material+Icons"
           />
           <script src="https://www.gstatic.com/firebasejs/ui/4.7.1/firebase-ui-auth.js"></script>
+          <style global jsx>
+            {`
+              html {
+                scroll-behavior: smooth;
+              }
+            `}
+          </style>
           <link
             type="text/css"
             rel="stylesheet"
